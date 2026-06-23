@@ -1,0 +1,16 @@
+{
+  "name": "Psycho — Full Stack Developer",
+  "short_name": "Psycho",
+  "description": "Full Stack Developer specializing in React, Next.js, TypeScript, and Python.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#22C55E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
