@@ -84,11 +84,14 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 ### cPanel
 
 ```bash
-# Build static export
+# Build static export and create zip
 npm run build
+npm run zip
 
-# Upload contents of `out/` folder to public_html
+# Upload out.zip to cPanel → Extract in public_html
 ```
+
+The `out.zip` file has proper Unix permissions (755 for directories, 644 for files) so you won't have permission issues after extraction.
 
 ## Project Structure
 
